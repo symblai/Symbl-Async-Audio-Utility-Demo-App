@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const { v4: uuidv4 }=require('uuid');
 
-const url = `mongodb+srv://symbl:7UXPV8OMvINNhpJc@cluster0.dmnev.mongodb.net/aggregationdb?retryWrites=true&w=majority`;
+const url = ``;
 
 function isObject(obj) {
     return Object.keys(obj).length > 0 && obj.constructor === Object;
